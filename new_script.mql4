@@ -16,3 +16,8 @@ void OnStart()
   printf("Hello, Wold");
   
   }
+
+// A SAÍDA DESSE CÓDIGO É HELLO, Wold
+// --------------------------+
+// Print("hello, word");
+// printf("hello, word");
