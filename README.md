@@ -1,27 +1,44 @@
-# Welcome to the FastAPI!
+# Welcome to the MQL5
 ***
-## Desenvolvimento de uma API com FastAPI
+## Desenvolvimento de programação 
 
-* O desenvolvimento com FastAPI é rápido e seguro e super recomendado
+* O desenvolvimento com MQL5 é rápido e seguro e super recomendado
 * A tecnologia nova que já tá ganhando um bom mercado e eu aproveitei para aplicar alguns testes com ela.
-* Acesse o site e fique por dentro sobre tudo que acontece com [FastAPI](https://fastapi.tiangolo.com/)
+* Acesse o site e fique por dentro sobre tudo que acontece com [MQL5](https://www.mql5.com/en)
 ***
 ## Pontos Positivos;
 
 1. Código totalmente Limpo!
-2. Sua inicialização é rápida e limpa assim como o **Flask**
+2. Sua inicialização é rápida e utilizando o MT5/MT4; temos grandes vantagens de script
 3. Funcionalidades complexas de forma rápida e simples.
 
 >Coisas Complexas e demoradas são formadas por diversas coisas simples e pequenas.
 ***
-## Código Básico do FastAPI
+## Código Básico do MQL5
 
-```python3
-from fastapi import FastAPI
+```MQL5
+//+------------------------------------------------------------------+
+//|                                                   hello-word.mq5 |
+//|                                  Copyright 2021, MetaQuotes Ltd. |
+//|                                             https://www.mql5.com |
+//+------------------------------------------------------------------+
+#property copyright "Copyright 2021, MetaQuotes Ltd."
+#property link      "https://www.mql5.com"
+#property version   "1.00"
+//+------------------------------------------------------------------+
+//| Script program start function                                    |
+//+------------------------------------------------------------------+
+void OnStart()
+  {
+//---
 
-app = FastAPI()
+  printf("Hello, Wold"); // print mostrando apenas um Hello Word
+  
+  }
 
-@app.get("/")
-async def root():
-  return {"message":"hello word"}
+// A SAÍDA DESSE CÓDIGO É HELLO, Wold
+// --------------------------+
+// Print("hello, word");
+// printf("hello, word");
+
 ```
