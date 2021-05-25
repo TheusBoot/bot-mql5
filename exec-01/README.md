@@ -44,3 +44,5 @@ void OnStart()
 ```
 ***
 ## Faça um programa na qual exiba a mensagem de a multiplicação de um número x dentro print: exemplo( 20 * 200) e o resultado seja posto no Metatrader dessa forma a baixo.
+
+![imagem do mercado](https://github.com/TheusBoot/bot-mql5/blob/main/exec-01/projeto-exe.png)
