@@ -42,3 +42,5 @@ void OnStart()
 // printf("hello, word");
 
 ```
+***
+## Faça um programa na qual exiba a mensagem de a multiplicação de um número x dentro print: exemplo( 20 * 200) e o resultado seja posto no Metatrader dessa forma a baixo.
