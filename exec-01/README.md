@@ -16,12 +16,28 @@
 ***
 ## Código Básico do MQL5
 
-```mq5
-from fastapi import FastAPI
+```//+------------------------------------------------------------------+
+//|                                                   hello-word.mq5 |
+//|                                  Copyright 2021, MetaQuotes Ltd. |
+//|                                             https://www.mql5.com |
+//+------------------------------------------------------------------+
+#property copyright "Copyright 2021, MetaQuotes Ltd."
+#property link      "https://www.mql5.com"
+#property version   "1.00"
+//+------------------------------------------------------------------+
+//| Script program start function                                    |
+//+------------------------------------------------------------------+
+void OnStart()
+  {
+//---
 
-app = FastAPI()
+  printf("Hello, Wold"); // print mostrando apenas um Hello Word
+  
+  }
 
-@app.get("/")
-async def root():
-  return {"message":"hello word"}
+// A SAÍDA DESSE CÓDIGO É HELLO, Wold
+// --------------------------+
+// Print("hello, word");
+// printf("hello, word");
+
 ```
