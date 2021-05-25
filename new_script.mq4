@@ -13,7 +13,7 @@ void OnStart()
   {
 //---
 
-  printf("Hello, Wold");
+  printf("Hello, Wold"); // print mostrando apenas um Hello Word
   
   }
 
