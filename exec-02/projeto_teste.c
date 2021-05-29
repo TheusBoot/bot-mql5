@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 
 int numero = 10
 
